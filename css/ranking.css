@@ -2,28 +2,34 @@
 .ranking {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     margin-top: 20px;
     gap: 10px;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #555;
 }
 
 .player-rank {
     width: 80px;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
     color: white;
     border-radius: 10px;
     padding: 10px;
 }
 
-.yellow { background-color: gold; height: 120px; }
-.blue { background-color: #5dc1b9; height: 100px; }
-.green { background-color: green; height: 80px; }
+.yellow { background-color: #f4c20d; height: 120px; }
+.blue { background-color: #359fe5; height: 100px; }
+.green { background-color: #4caf50; height: 80px; }
 
 /* Botón del jugador */
 .red-button {
-    background-color: red;
+    background-color: #e53935;
     color: white;
     border: none;
     padding: 10px 20px;

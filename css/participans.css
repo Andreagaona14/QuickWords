@@ -7,6 +7,13 @@ align-items: center;
 text-align: center;
 }
 
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  color: #555;
+  position: relative;
+  top: 120px;
+}
 
 section {
 width: 80%;
